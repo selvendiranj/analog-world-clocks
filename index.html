@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Clock</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>&#x1F559;</text></svg>">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" type="module"></script>
+    <!-- <style>
+        @import "./index.css";
+    </style>
+    <script type="module">
+        import "./index.js";
+    </script> -->
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <!-- List of tz database time zones -->
+            <!-- https://en.wikipedia.org/wiki/List_of_tz_database_time_zones -->
+            <div class="clock--wrapper">
+                <h5>Melbourne</h5>
+                <div class="clock" data-locale="Australia/Melbourne"></div>
+            </div>
+            <div class="clock--wrapper">
+                <h5>Tokyo</h5>
+                <div class="clock" data-locale="Asia/Tokyo"></div>
+            </div>
+            <div class="clock--wrapper">
+                <h5>Hong Kong</h5>
+                <div class="clock" data-locale="Hongkong"></div>
+            </div>
+            <div class="clock--wrapper">
+                <h5>Mumbai</h5>
+                <div class="clock" data-locale="Asia/Kolkata"></div>
+            </div>
+            <div class="clock--wrapper">
+                <h5>Amsterdam</h5>
+                <div class="clock" data-locale="Europe/Amsterdam"></div>
+            </div>
+            <div class="clock--wrapper">
+                <h5>London</h5>
+                <div class="clock" data-locale="Europe/London"></div>
+            </div>
+            <div class="clock--wrapper">
+                <h5>Boston</h5>
+                <div class="clock" data-locale="America/New_York"></div>
+            </div>
+            <div class="clock--wrapper">
+                <h5>Los Angeles</h5>
+                <div class="clock" data-locale="America/Los_Angeles"></div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
