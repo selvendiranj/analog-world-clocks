@@ -10,10 +10,12 @@
     --bkg: #232946;
     --dark: #121629;
     --gray: #888B8D;
-    --purple: #b8c1ec;
+    --purple: #B8C1EC;
     --Khaki: #F0E68C;
-    --pink: #eebbc3;
-    --white: #fffffe;
+    --gold: #FFD700;
+    --pink: #EEBBC3;
+    --white: #FFFFFF;
+    --black: #000000;
     --green: #00FF00;
 }
 
@@ -83,21 +85,14 @@ body {
 }
 
 .hand--minute {
-    stroke: var(--white);
+    stroke: var(--Khaki);
     stroke-width: 5;
     transform: rotate(93deg);
 }
 
 .date {
-    fill: var(--green);
-    font-size: 1.0rem;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-.day {
-    fill: var(--green);
-    font-size: 1.0rem;
+    fill: var(--dark);
+    font-size: 0.8rem;
     font-weight: bold;
     text-transform: uppercase;
 }
